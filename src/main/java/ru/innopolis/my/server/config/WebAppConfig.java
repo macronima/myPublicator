@@ -1,17 +1,12 @@
-package ru.innopolis.my.config;
+package ru.innopolis.my.server.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.remoting.rmi.RmiServiceExporter;
-import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
-import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 import org.springframework.web.servlet.view.JstlView;
-import ru.innopolis.my.service.TopicService;
-import ru.innopolis.my.service.UserService;
 
 @Configuration
 @EnableWebMvc

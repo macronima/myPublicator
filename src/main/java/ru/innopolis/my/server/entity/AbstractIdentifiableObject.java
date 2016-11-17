@@ -1,4 +1,4 @@
-package ru.innopolis.my.entity;
+package ru.innopolis.my.server.entity;
 
 import lombok.Getter;
 import lombok.Setter;

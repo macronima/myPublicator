@@ -1,12 +1,12 @@
-package ru.innopolis.my.controller;
+package ru.innopolis.my.client.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.annotation.Secured;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.*;
-import ru.innopolis.my.entity.Topic;
-import ru.innopolis.my.service.TopicService;
+import ru.innopolis.my.server.entity.Topic;
+import ru.innopolis.my.common.service.TopicService;
 
 import javax.servlet.http.HttpServletResponse;
 

@@ -1,10 +1,10 @@
-package ru.innopolis.my.service.impl;
+package ru.innopolis.my.server.service.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import ru.innopolis.my.entity.Topic;
-import ru.innopolis.my.repository.TopicRepository;
-import ru.innopolis.my.service.TopicService;
+import ru.innopolis.my.server.entity.Topic;
+import ru.innopolis.my.server.repository.TopicRepository;
+import ru.innopolis.my.common.service.TopicService;
 
 import java.util.List;
 @Service("TopicService")

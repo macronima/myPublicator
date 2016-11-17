@@ -1,4 +1,4 @@
-package ru.innopolis.my.config;
+package ru.innopolis.my.server.config;
 
 import org.springframework.orm.jpa.support.OpenEntityManagerInViewFilter;
 import org.springframework.web.WebApplicationInitializer;

@@ -1,6 +1,6 @@
-package ru.innopolis.my.service;
+package ru.innopolis.my.common.service;
 
-import ru.innopolis.my.entity.User;
+import ru.innopolis.my.server.entity.User;
 
 import java.util.List;
 

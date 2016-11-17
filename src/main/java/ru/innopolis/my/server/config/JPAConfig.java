@@ -1,4 +1,4 @@
-package ru.innopolis.my.config;
+package ru.innopolis.my.server.config;
 
 import org.apache.commons.dbcp.BasicDataSource;
 import org.hibernate.jpa.HibernatePersistenceProvider;
@@ -17,7 +17,7 @@ import javax.sql.DataSource;
 
 @Configuration
 @EnableTransactionManagement
-@EnableJpaRepositories("ru.innopolis.my.repository")
+@EnableJpaRepositories("ru.innopolis.my.server.repository")
 public class JPAConfig {
 
     private static final String URL_BASE = "jdbc:h2:~/publicator";

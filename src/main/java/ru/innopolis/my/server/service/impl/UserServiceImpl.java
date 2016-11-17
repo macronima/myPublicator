@@ -1,11 +1,10 @@
-package ru.innopolis.my.service.impl;
+package ru.innopolis.my.server.service.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import ru.innopolis.my.entity.User;
-import ru.innopolis.my.repository.UserRepository;
-import ru.innopolis.my.repository.UserRepository;
-import ru.innopolis.my.service.UserService;
+import ru.innopolis.my.server.entity.User;
+import ru.innopolis.my.server.repository.UserRepository;
+import ru.innopolis.my.common.service.UserService;
 
 import java.util.List;
 @Service
@@ -13,9 +12,6 @@ public class UserServiceImpl implements UserService{
 
     @Autowired
     private UserRepository uR;
-
-    @Autowired
-    UserRepository userRepository;
 
     @Override
     public User getUser(Long id) {return uR.findOne(id);}
